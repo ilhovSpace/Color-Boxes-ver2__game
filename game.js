@@ -6,16 +6,16 @@ class Game {
     }
 
     play () {
-        this._createBox(5); //Максимальное количество кубиков на игровом поле
+        this._createBox(5); //The maximum number of colorBoxes on the playing field
         this._render();
         this._checkClick();
         this._checkBoxOutside();
         this.score.innerHTML = this.points;
       }
 
-    _createBox (maxNamberBoxes) { 
+    _createBox (maxNumberBoxes) { 
         let box = new randomColorBox();
-        if (this.boxes.length < maxNamberBoxes){
+        if (this.boxes.length < maxNumberBoxes){
                 this.boxes.push(box);
             }
         }
