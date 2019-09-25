@@ -1,0 +1,25 @@
+<html lang="en">
+  <head>
+    <title>Color Boxes version 2</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="info">       
+        <h1 class="colorBox">Color Boxes ver 2.0</h1>
+        <h2> Score: <span id="score"> 0 </span> </h2>
+      </div>
+      <div class="canvas">
+          <canvas width="640" height="480" id="canvas"></canvas>
+      </div>
+      <div class="buttons">      
+          <button OnClick="controller.start();"> Start </button>
+          <button OnClick="controller.stop();"> Stop </button></>
+        </div>
+  </body>
+
+  <script type="text/javascript" src="canvas.js"></script>
+  <script type="text/javascript" src="randomColorBox.js"></script>
+  <script type="text/javascript" src="controller.js"></script>
+  <script type="text/javascript" src="game.js"></script>
+</html>

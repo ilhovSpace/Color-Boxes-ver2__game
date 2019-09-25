@@ -1,0 +1,41 @@
+  body{
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(90deg, rgb(22, 99, 161), rgb(101, 71, 139));
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .container{
+    width: 640px;
+
+  }
+  .info{
+    width: 100%;
+  }
+  .buttons{
+      display: flex;
+      justify-content: center;
+  }
+  canvas {
+    background: black;
+  }
+  button{
+    width: 30%;
+    padding: 7px;
+    background: transparent;
+    color: black;
+    box-shadow: 1px 1px 2px black;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+.colorBox{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    text-align: center;
+    color: crimson;
+    text-shadow: 1px 1px 2px black;
+    width: 100%
+}
